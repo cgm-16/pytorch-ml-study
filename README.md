@@ -2,7 +2,7 @@
 
 [딥 러닝 파이토치 교과서 - 입문부터 파인튜닝까지](https://wikidocs.net/book/2788)를 공부하면서 만들고 있습니다.
 
-직접 코드를 보고 싶으시면 [여기](https://github.com/ukairia777/pytorch-nlp-tutorial)가 제 리포보단 백배 낫습니다.
+직접 코드를 보고 싶으시면 [여기로](https://github.com/ukairia777/pytorch-nlp-tutorial)가셔서 보시는거 추천드립디다.
 
 ## 공부 진도
 
