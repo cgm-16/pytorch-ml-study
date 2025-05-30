@@ -2,7 +2,25 @@
 
 [딥 러닝 파이토치 교과서 - 입문부터 파인튜닝까지](https://wikidocs.net/book/2788)를 공부하면서 만들고 있습니다.
 
-직접 코드를 보고 싶으시면 [여기로](https://github.com/ukairia777/pytorch-nlp-tutorial)가셔서 보시는거 추천드립디다.
+직접 코드를 보고 싶으시면 [여기로](https://github.com/ukairia777/pytorch-nlp-tutorial)가셔서 보시는거 추천드립니다.
+
+## 사용 방법
+
+- python의 기초 지식을 알고 있는 것을 전제하고 있습니다.
+- vscode와 python, jupyter notebook 관련 extension들이 이미 설치되어 있다는 가정하에 설명하는 글입니다.
+- git으로 버전 관리를 하고 있고, Astral의 [uv](https://github.com/astral-sh/uv?tab=readme-ov-file)로 패키지 관리를 하고 있습니다.
+
+1. 필요한 프로그램(git, uv) 설치 확인, 없으면 설치 및 초기 설정
+2. 리포 클론 - 터미널에서 원하는 위치에서서 아래 코드 복붙 후 해당 디렉토리로 진입
+``` bash
+git clone https://github.com/cgm-16/pytorch-ml-study
+cd pytorch-ml-study
+```
+3. 패키지 설치 - 터미널에 아래 코드 복붙
+``` bash
+uv sync
+```
+4. venv 활성화 후 사용
 
 ## 공부 진도
 
@@ -29,3 +47,14 @@
 - [ ] LLM 파인튜닝
 - [ ] 멀티모달 VLM 파인튜닝
 - [ ] vLLM 이용한 서빙 가속화
+
+## (최대한 지키고자 하는) 문서 양식
+
+- 파일의 양식은 `목차_대로_제목.ipynb`
+- 문서의 제목은 `##제목`
+  - 하위 항목은 `### 1.`
+    - 더 하위 항목은 `#### 1)`
+- 그림은 `![](이미지 링크)`
+- 수식은 `$잘 옮겨보기$`
+- 코드는 거의 복붙
+- 내용은 요약해 리스트화
